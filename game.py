@@ -42,7 +42,7 @@ while True:
     #đặt màu nền trắng
     DISPLAYSURF.fill(WHITE)
     # thêm hình ảnh
-    DISPLAYSURF.blit(img, (car_x, car_y))
+    DISPLAYSURF.blit(carSurface, (car_x, car_y))
     for event in pygame.event.get():
         if event.type == QUIT:
             pygame.quit()
